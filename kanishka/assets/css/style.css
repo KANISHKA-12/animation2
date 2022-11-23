@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background-color: red;
+    padding: 0;
+}
+.div-2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    border-radius: 50%;
+    animation-name: snake;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes snake {
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    20%{
+        left: 200px;
+        top: 0px ;
+        background-color: blueviolet;
+    }
+    40%{
+        left: 200px;
+        top: 300px;
+        background-color: aqua;
+    }
+    60%{
+        left: 300px;
+        top: 300px;
+        background-color: blue;
+    }
+    80%{
+        left: 300px;
+        top: 400px;
+        background-color: pink;
+    }
+    100%{
+        left: 400px;
+        top: 400px;
+        background-color: darkkhaki;
+    }
+
+
+    
+}
